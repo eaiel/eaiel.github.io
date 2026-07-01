@@ -1,0 +1,69 @@
+author1:
+  name:                Eaiel Camilotes
+  email:               edcamilotes03@gmail.com
+
+
+  about:             |
+    Cybersecurity Student and Business Administration & IT Intern
+  picture:
+    path:            https://placehold.co/128x128
+
+    srcset:
+      1x:            https://placehold.co/128x128
+      2x:            https://placehold.co/256x256
+
+  social:
+    github:          <eaiel>
+    email:           <edcamilotes03@gmail.com>
+    # rss:             https://<url>/feed.xml
+    # facebook:        <username>
+    # google:          <number>
+    # vk:              <username>
+    # youtube:         <string_string_string>
+    # vimeo:           <username>
+    # vine:            <username>
+    # spotify:         <user>/<number>
+    # soundcloud:      <username>
+    # lastfm:          <username>
+    # instagram:       <username>
+    # flickr:          <string@string>
+    # 500px:           <username>
+    # dribbble:        <username>
+    # behance:         <username>
+    # deviantart:      <username>
+    # ello:            <username>
+    # twitch:          <username>
+    # steam:           <number>
+    # reddit:          <username>
+    # tumblr:          <username>
+    # pinterest:       <username>
+    # foursquare:      <number>
+    # yelp:            <string>
+    # stackoverflow:   <number/username>
+    # npm:             <username>
+    # hackernews:      <username>
+    # trello:          <firstnamelastname>
+    linkedin:        <eaiel-camilotes-4a5aa32ba>
+    # xing:            <firstname_lastname_counter>
+    # blogger:         <number>
+    # delicious:       <username>
+    # stumbleupon:     <username>
+    # paypal:          <username>
+    # download:        <url>
+    # keybase:         <username>
+    # signal:          <group-invite-code>
+    # threads:         @<username>
+    # playstation:     https://<url>
+    # messenger:       https://<url>
+    # stripe:          https://<url>
+    # slack:           https://<url>
+    # gitlab:          <username>
+    # line:            <username>
+    # medium:          <path>
+    # xbox:            <gamer-tag>
+    # wechat:          https://<url>
+    # discord:         <invite-code>
+    # mastodon:        https://<url>
+    # x:               <username>
+
+
