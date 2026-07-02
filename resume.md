@@ -9,7 +9,7 @@ title: Resume
 
 <div style="text-align: center; margin-bottom: 1.5rem;">
   <h2 style="margin-bottom: 0.2rem;">Eaiel Camilotes</h2>
-  <p style="color: #666; margin: 0;">edcamilotes@gmail.com &nbsp;·&nbsp; Raleigh, NC &nbsp;·&nbsp; <a href="https://github.com/eaiel">github.com/eaiel</a></p>
+  <p style="color: #edc7ea; margin: 0;">edcamilotes@gmail.com &nbsp;·&nbsp; Raleigh, NC &nbsp;·&nbsp; <a href="https://github.com/eaiel">github.com/eaiel</a></p>
 </div>
 
 ---
