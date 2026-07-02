@@ -6,11 +6,11 @@ author1:
   about:             |
     Cybersecurity Student and Business Administration & IT Intern
   picture:
-    path:            /workspaces/eaiel.github.io/assets/img/profile-photo.jpg
+    path:            /assets/img/profile-photo.jpg
     
     srcset:
-      1x:            /workspaces/eaiel.github.io/assets/img/profile-photo.jpg
-      2x:            /workspaces/eaiel.github.io/assets/img/profile-photo.jpg
+      1x:            /assets/img/profile-photo.jpg
+      2x:            /assets/img/profile-photo.jpg
 
   social:
     github:            eaiel
