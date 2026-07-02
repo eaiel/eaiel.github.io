@@ -5,20 +5,33 @@ description: >
   Portfolio of Eaiel 'Angel' Camilotes. Cybersecurity Student and Business Administration & IT Intern. 
 hide_description: true
 ---
+<script src="...model-viewer.min.js">
 
-<div class="sketchfab-embed-wrapper"> 
-<iframe title="Retro computer" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/9439cb5e09cc44caa63dfbfb299df45f/embed"> 
-</iframe> 
-<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> 
-  <a href="https://sketchfab.com/3d-models/retro-computer-9439cb5e09cc44caa63dfbfb299df45f?utm_medium=embed&utm_campaign=share-popup&utm_content=9439cb5e09cc44caa63dfbfb299df45f" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> 
-    Retro computer 
-  </a> by 
-  <a href="https://sketchfab.com/dogflesh?utm_medium=embed&utm_campaign=share-popup&utm_content=9439cb5e09cc44caa63dfbfb299df45f" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> 
-    dogflesh 
-  </a> on 
-  <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=9439cb5e09cc44caa63dfbfb299df45f" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
-</p>
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+
+<div style="text-align: center; margin: 1.5rem 0;">
+  <model-viewer 
+    src="/assets/models/retro-computer/scene.gltf" 
+    alt="A 3D model of a retro computer"
+    auto-rotate 
+    camera-controls
+    environment-image="neutral"
+    exposure="1.2"
+    shadow-intensity="1"
+    style="width: 100%; max-width: 500px; height: 350px; background-color: #f4f4f4;">
+  </model-viewer>
+  <p style="font-size: 0.8rem; color: #888; margin-top: 0.3rem;">
+    This work is based on <a href="https://sketchfab.com/3d-models/retro-computer-9439cb5e09cc44caa63dfbfb299df45f">"Retro computer"</a> 
+    by <a href="https://sketchfab.com/dogflesh">dogflesh</a>, licensed under 
+    <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>
+  </p>
 </div>
+
+<p style="font-size: 0.8rem; color: #888; margin-top: 0.3rem; text-align: center;">
+  This work is based on <a href="https://sketchfab.com/3d-models/retro-computer-9439cb5e09cc44caa63dfbfb299df45f">"Retro computer"</a> 
+  by <a href="https://sketchfab.com/dogflesh">dogflesh</a>, licensed under 
+  <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>
+</p>
 
 # About
 
