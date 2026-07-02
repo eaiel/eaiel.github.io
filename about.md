@@ -17,7 +17,7 @@ hide_description: true
   disable-zoom
   bounds="tight"
   camera-orbit="0deg 75deg 60%"
-  environment-image="/assets/img/your-hdri-filename.hdr"
+  environment-image="/assets/img/pinkblue.hdr"
   exposure="1.2"
   shadow-intensity="1"
   style="width: 100%; max-width: 500px; height: 350px; background-color: transparent; margin: 0 auto;">
