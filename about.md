@@ -5,7 +5,6 @@ description: >
   Portfolio of Eaiel 'Angel' Camilotes. Cybersecurity Student and Business Administration & IT Intern. 
 hide_description: true
 ---
-<script src="...model-viewer.min.js">
 
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
 
@@ -26,12 +25,6 @@ hide_description: true
     <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>
   </p>
 </div>
-
-<p style="font-size: 0.8rem; color: #888; margin-top: 0.3rem; text-align: center;">
-  This work is based on <a href="https://sketchfab.com/3d-models/retro-computer-9439cb5e09cc44caa63dfbfb299df45f">"Retro computer"</a> 
-  by <a href="https://sketchfab.com/dogflesh">dogflesh</a>, licensed under 
-  <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>
-</p>
 
 # About
 
