@@ -6,11 +6,11 @@ author1:
   about:             |
     Cybersecurity Student and Business Administration & IT Intern
   picture:
-    path:            https://placehold.co/128x128
-
+    path:            /assets/img/profile-photo.jpg
+    
     srcset:
-      1x:            https://placehold.co/128x128
-      2x:            https://placehold.co/256x256
+      1x:            /assets/img/profile-photo.jpg
+      2x:            /assets/img/profile-photo.jpg
 
   social:
     github:          <eaiel>
@@ -43,7 +43,7 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    linkedin:        <eaiel-camilotes-4a5aa32ba>
+    linkedin:          www.linkedin.com/in/eaiel-camilotes-4a5aa32ba
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
