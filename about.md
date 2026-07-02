@@ -14,7 +14,7 @@ hide_description: true
     alt="A 3D model of a retro computer"
     auto-rotate 
     camera-controls
-    environment-image="legacy"
+    environment-image="/assets/img/pinkblue.hdr"
     exposure="1.2"
     shadow-intensity="1"
     style="width: 100%; max-width: 500px; height: 350px; background-color: transparent; margin: 0 auto;">
