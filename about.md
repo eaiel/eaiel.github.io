@@ -10,14 +10,17 @@ hide_description: true
 
 <div style="margin: 1.5rem 0; display: flex; justify-content: center;">
   <model-viewer 
-    src="/assets/img/retro-computer/retro-computer-fixed.glb" 
-    alt="A 3D model of a retro computer"
-    auto-rotate 
-    camera-controls
-    environment-image="/assets/img/pinkblue.hdr"
-    exposure="1.2"
-    shadow-intensity="1"
-    style="width: 100%; max-width: 500px; height: 350px; background-color: transparent; margin: 0 auto;">
+  src="/assets/img/retro-computer/retro-computer-fixed.glb" 
+  alt="A 3D model of a retro computer"
+  auto-rotate 
+  camera-controls
+  disable-zoom
+  bounds="tight"
+  camera-orbit="0deg 75deg 60%"
+  environment-image="/assets/img/your-hdri-filename.hdr"
+  exposure="1.2"
+  shadow-intensity="1"
+  style="width: 100%; max-width: 500px; height: 350px; background-color: transparent; margin: 0 auto;">
   </model-viewer>
 </div>
 <p style="font-size: 0.8rem; color: #888; margin-top: 0.3rem; text-align: center;">
