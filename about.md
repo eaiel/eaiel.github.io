@@ -29,7 +29,7 @@ Work in progress... projects incoming.
 
 
 ## Get In Touch
-You can reach me at [edcamilotes03@gmail.com](mailto:edcamilotes03@gmail.com) or connect on [LinkedIn](www.linkedin.com/in/eaiel-camilotes-4a5aa32ba)
+You can reach me at [edcamilotes03@gmail.com](mailto:edcamilotes03@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/eaiel-camilotes-4a5aa32ba/)
 
 
 [jekyll]: https://jekyllrb.com
