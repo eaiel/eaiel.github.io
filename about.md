@@ -10,7 +10,7 @@ hide_description: true
 
 <div style="text-align: center; margin: 1.5rem 0;">
   <model-viewer 
-    src="/assets/models/retro-computer/scene.gltf" 
+    src="/assets/img/retro-computer/scene.gltf" 
     alt="A 3D model of a retro computer"
     auto-rotate 
     camera-controls
