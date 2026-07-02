@@ -8,23 +8,23 @@ hide_description: true
 
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
 
-<div style="text-align: center; margin: 1.5rem 0;">
+<div style="margin: 1.5rem 0; display: flex; justify-content: center;">
   <model-viewer 
     src="/assets/img/retro-computer/retro-computer-fixed.glb" 
     alt="A 3D model of a retro computer"
     auto-rotate 
     camera-controls
-    environment-image="neutral"
+    environment-image="legacy"
     exposure="1.2"
     shadow-intensity="1"
-    style="width: 100%; max-width: 500px; height: 350px; background-color: #f4f4f4;">
+    style="width: 100%; max-width: 500px; height: 350px; background-color: transparent; margin: 0 auto;">
   </model-viewer>
-  <p style="font-size: 0.8rem; color: #888; margin-top: 0.3rem;">
-    This work is based on <a href="https://sketchfab.com/3d-models/retro-computer-9439cb5e09cc44caa63dfbfb299df45f">"Retro computer"</a> 
-    by <a href="https://sketchfab.com/dogflesh">dogflesh</a>, licensed under 
-    <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>
-  </p>
 </div>
+<p style="font-size: 0.8rem; color: #888; margin-top: 0.3rem; text-align: center;">
+  This work is based on <a href="https://sketchfab.com/3d-models/retro-computer-9439cb5e09cc44caa63dfbfb299df45f">"Retro computer"</a> 
+  by <a href="https://sketchfab.com/dogflesh">dogflesh</a>, licensed under 
+  <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>
+</p>
 
 # About
 
