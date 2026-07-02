@@ -92,6 +92,8 @@ theme: jekyll-theme-hydejack
 # Customizaton
 # ----------------------------------------------------------------------------------------
  
+favicon:                /assets/img/favicon.png
+apple_touch_icon:       /assets/img/favicon.png
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
 accent_color:          rgb(201, 137, 190)
