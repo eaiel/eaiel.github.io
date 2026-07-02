@@ -5,38 +5,29 @@ description: >
   Portfolio of Eaiel 'Angel' Camilotes. Cybersecurity Student and Business Administration & IT Intern. 
 hide_description: true
 ---
-<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+
+<div class="sketchfab-embed-wrapper"> 
+<iframe title="Retro computer" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/9439cb5e09cc44caa63dfbfb299df45f/embed"> 
+</iframe> 
+<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> 
+  <a href="https://sketchfab.com/3d-models/retro-computer-9439cb5e09cc44caa63dfbfb299df45f?utm_medium=embed&utm_campaign=share-popup&utm_content=9439cb5e09cc44caa63dfbfb299df45f" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> 
+    Retro computer 
+  </a> by 
+  <a href="https://sketchfab.com/dogflesh?utm_medium=embed&utm_campaign=share-popup&utm_content=9439cb5e09cc44caa63dfbfb299df45f" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> 
+    dogflesh 
+  </a> on 
+  <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=9439cb5e09cc44caa63dfbfb299df45f" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+</p>
+</div>
 
 # About
 
 <!--author-->
 
-<div style="display: flex; gap: 2rem; flex-wrap: wrap; align-items: center; margin: 2rem 0;">
-
-<div style="flex: 1 1 300px;" markdown="1">
-
 ## Eaiel Camilotes
 
 I am a student currently pursuing a Bachelors in Science for Cybersecurity and Information Technology. I also work full-time as a Business Administration Intern for a Food & Hospitality company. I have skills with auditing, data collection, formatting and creating documentation for ~12 brands. Personally, I have started building projects and taking certifications to take my first step into the IT and Security workforce. 
 {:.lead}
-
-</div>
-
-<div style="flex: 1 1 300px; text-align: center;">
-  <model-viewer 
-    src="/assets/img/retro_computer.glb" 
-    alt="A 3D model of a retro computer"
-    auto-rotate 
-    camera-controls
-    style="width: 100%; height: 350px;">
-  </model-viewer>
-  <p style="font-size: 0.8rem; color: #edc7ea; margin-top: 0.3rem;">
-    "Retro Computer" by <a href="https://skfb.ly/6URHQ">dogflesh</a>, licensed 
-    <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
-  </p>
-</div>
-
-</div>
 
 1. this list will be replaced by the toc
 {:toc .large-only}
