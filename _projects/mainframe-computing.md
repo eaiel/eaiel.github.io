@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title: Mainframe Computing
 caption: IBM Z and z/OS — batch jobs, datasets, REXX, z/VM, and Linux
 description: >
