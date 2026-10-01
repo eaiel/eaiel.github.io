@@ -1,0 +1,60 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  .wl { --wl-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+        --wl-navy: #12324A; --wl-navy-2: #1B4766; --wl-link: #3CB54A; --wl-air: #9FB8CC; --wl-paper: #F4F8FB;
+        --hair: color-mix(in srgb, currentColor 15%, transparent);
+        --line: color-mix(in srgb, currentColor 35%, transparent); }
+  .wl h2 { margin-top: 2.75rem; }
+  .wl a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+
+  /* Hero: a Packet Tracer-style link diagram with real ping results */
+  .wl-hero { background: var(--wl-navy); color: var(--wl-paper); border-radius: 6px; padding: 1.4rem 1.4rem 1.2rem; margin: 0 0 2.5rem; overflow: hidden; }
+  .wl-hero p { margin: 0; }
+  .wl-title { font-weight: 700; font-size: clamp(1.7rem, 5vw, 2.5rem); line-height: 1.1; letter-spacing: -.01em; }
+  .wl-sub { font-family: var(--wl-mono); font-size: .85rem; color: var(--wl-air); margin-top: .35rem !important; }
+  .wl-desc { max-width: 54ch; margin: .9rem 0 1.1rem !important; line-height: 1.55; }
+  .wl-diagram { display: block; width: 100%; max-width: 640px; height: auto; margin: .25rem 0 1rem; }
+  .wl-diagram text { font-family: var(--wl-mono); font-size: 13px; fill: var(--wl-paper); }
+  .wl-ping { font-family: var(--wl-mono); font-size: .8rem; line-height: 1.6; background: var(--wl-navy-2);
+             border-radius: 4px; padding: .6rem .8rem; overflow-x: auto; white-space: pre; }
+  .wl-ping .ok { color: var(--wl-link); }
+
+  /* tags */
+  .wl-tags { display: flex; flex-wrap: wrap; gap: .5rem; padding: 0; margin: 1rem 0 0; list-style: none; }
+  .wl-tags li { font-family: var(--wl-mono); font-size: .85rem; padding: .2rem .6rem; margin: 0;
+                border: 1px solid var(--line); border-radius: 999px; }
+  .wl-lede { font-size: 1.1rem; line-height: 1.65; max-width: 62ch; }
+
+  /* builds */
+  .wl-builds { list-style: none; padding: 0; margin: 1.25rem 0 0; counter-reset: build; }
+  .wl-builds > li { counter-increment: build; padding: 1.75rem 0; margin: 0; border-top: 1px solid var(--hair); }
+  .wl-builds > li:last-child { border-bottom: 1px solid var(--hair); }
+  .wl-builds h3 { margin: 0 0 .5rem; font-size: 1.25rem; }
+  .wl-builds h3::before { content: "Network " counter(build); display: block; font-family: var(--wl-mono);
+                          font-size: .78rem; font-weight: 400; opacity: .6; margin-bottom: .15rem; }
+  .wl-builds p { margin: 0 0 .75rem; max-width: 64ch; }
+  .wl-builds ul { margin: 0 0 1rem; }
+  .wl-builds li li { margin-bottom: .3rem; }
+  .wl-figs { display: flex; flex-wrap: wrap; gap: 1.25rem; align-items: flex-start; }
+  .wl-shot { margin: 0; flex: 0 1 auto; max-width: 100%; }
+  .wl-shot img { display: block; max-width: 100%; height: auto; border-radius: 4px; border: 1px solid var(--hair); background: #fff; }
+  .wl-shot figcaption { font-size: .85rem; opacity: .75; margin-top: .4rem; max-width: 40ch; }
+
+  /* concepts */
+  .wl-concepts { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1.25rem 2rem; margin-top: 1.25rem; }
+  .wl-concepts h3 { font-size: 1rem; margin: 0 0 .35rem; }
+  .wl-concepts p { margin: 0; }
+
+  /* site survey form */
+  .wl-table-wrap { overflow-x: auto; margin: 1.25rem 0; }
+  .wl-table { border-collapse: collapse; width: 100%; min-width: 30rem; font-size: .95rem; }
+  .wl-table th, .wl-table td { text-align: left; padding: .55rem .75rem; border-bottom: 1px solid var(--hair); vertical-align: top; }
+  .wl-table th { font-weight: 700; border-bottom: 2px solid var(--line); }
+  .wl-table td:first-child { font-weight: 600; white-space: nowrap; }
+  .wl-tools { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1.25rem 2rem; margin-top: 1rem; }
+  .wl-tools h3 { font-size: 1rem; margin: 0 0 .1rem; }
+  .wl-tools .fit { font-family: var(--wl-mono); font-size: .78rem; opacity: .6; margin: 0 0 .35rem; }
+  .wl-tools p { margin: 0; }
+</style>
