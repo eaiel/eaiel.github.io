@@ -29,7 +29,7 @@ sitemap: false
 </ul>
 
 <h2 id="journey">My mainframe journey</h2>
-<p>Each step built on the one before it. Start at the top, or jump to the JCL project for the full batch-job story, error included.</p>
+<p>Each step built on the one before it. Start at the top, or jump to the JCL project for batch jobs in action.</p>
 <ol class="mf-steps">
   <li>
     <div>
@@ -51,7 +51,7 @@ sitemap: false
     <div>
       <p class="labs">JCL Lab 1 + Sort Lab</p>
       <h3>JCL and batch job processing</h3>
-      <p>Writing and submitting batch jobs, reading the SDSF job log to track down a JCL error, creating a dataset with JCL, and sorting a file with the SORT utility.</p>
+      <p>Building and submitting batch jobs from scratch, then using JCL to run the SORT utility on a customer file.</p>
     </div>
     <a class="go" href="{{ '/projects/mainframe-computing/jcl/' | relative_url }}">View project</a>
   </li>
@@ -79,15 +79,15 @@ sitemap: false
   <div><h3>Mainframe tools</h3><ul><li>TSO</li><li>ISPF</li><li>SDSF</li><li>3270 terminal</li></ul></div>
   <div><h3>Programming and automation</h3><ul><li>JCL</li><li>REXX</li><li>SORT</li></ul></div>
   <div><h3>Systems</h3><ul><li>IBM Z</li><li>IBM LinuxONE</li><li>SSH</li><li>MySQL</li></ul></div>
-  <div><h3>Core concepts</h3><ul><li>Batch processing</li><li>Dataset allocation</li><li>Catalogs and volumes</li><li>Reading job logs</li></ul></div>
+  <div><h3>Core concepts</h3><ul><li>Batch processing</li><li>Dataset allocation</li><li>Catalogs and volumes</li><li>Job monitoring</li></ul></div>
 </div>
 
 <h2 id="taught">What mainframe computing taught me</h2>
 <!--
   TODO (Angel): Replace this with 3–5 sentences in your own words. Prompts:
   - What did you assume about mainframes before Lab 1? What changed?
-  - Your labs keep coming back to the same lesson: you hit an error, read what the
-    system told you, and fixed it (JCL error, REXX average bug). Is that the real takeaway?
+  - Your REXX average bug is a good example: the program ran but the math was wrong
+    until you tested it. Is testing your real takeaway?
   - How does this change how you think about cybersecurity / IT systems?
 -->
 <blockquote class="mf-quote">
