@@ -9,7 +9,7 @@ title: Resume
 
 <div style="text-align: center; margin-bottom: 1.5rem;">
   <h2 style="margin-bottom: 0.2rem;">Eaiel Camilotes</h2>
-  <p style="color: #edc7ea; margin: 0;">edcamilotes@gmail.com &nbsp;·&nbsp; Raleigh, NC &nbsp;·&nbsp; <a href="https://github.com/eaiel">github.com/eaiel</a></p>
+  <p class="resume-contact" style="margin: 0;">edcamilotes@gmail.com &nbsp;·&nbsp; Raleigh, NC &nbsp;·&nbsp; <a href="https://github.com/eaiel">github.com/eaiel</a></p>
 </div>
 
 ---
@@ -57,8 +57,8 @@ Cybersecurity and IT student with hands-on experience in technical support, docu
 </div>
 
 <p style="text-align: center; margin-top: 1.5rem;">
-  <a href="/assets/resume.pdf" download 
-     style="display: inline-block; padding: 0.6rem 1.4rem; background: #bf8abb; color: #fff; 
+  <a href="{{ '/assets/img/resume.pdf' | relative_url }}" download class="resume-btn"
+     style="display: inline-block; padding: 0.6rem 1.4rem; color: #fff; 
             border-radius: 6px; text-decoration: none; font-weight: 600;">
     ⬇ Download PDF version
   </a>

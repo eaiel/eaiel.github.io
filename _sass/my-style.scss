@@ -136,3 +136,21 @@ html body.dark-mode {
 .t-who { display: grid; grid-template-columns: max-content 1fr; gap: .15rem 1.2rem; margin: .5rem 0 .8rem; }
 @media screen and (max-width: 640px) { .t-who { gap: .1rem .8rem; } }
 @media (prefers-reduced-motion: reduce) { .term a.t-card, .t-shot img, .t-shot::before { transition: none; } }
+
+// Resume page: readable contact line and download button in both modes
+.resume-contact { color: #7d3f70; }
+.resume-btn { background: #8f4a7f; }
+.resume-btn:hover, .resume-btn:focus-visible { background: #7d3f70; }
+html body.dark-mode .resume-contact { color: #e3bdd6; }
+@media screen and (prefers-color-scheme: dark) {
+  html body:not(.light-mode) .resume-contact { color: #e3bdd6; }
+}
+
+// Pixel-art cursor (desktop pointers only; touch devices never show it)
+@media (pointer: fine) {
+  html, body { cursor: url("/assets/img/cursor/arrow.png") 0 0, auto; }
+  a, button, summary, label, select, [role="button"], .t-card {
+    cursor: url("/assets/img/cursor/hand.png") 11 0, pointer;
+  }
+  input, textarea, [contenteditable="true"] { cursor: text; }
+}

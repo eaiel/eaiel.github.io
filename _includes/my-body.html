@@ -91,3 +91,53 @@ Example code for using Matamo as alternative analytics solution.
 </script>
 {% endif %}
 {% endcomment %}
+
+<!-- Pixel flower bloom on click. Desktop pointers only, skipped when the visitor prefers reduced motion. -->
+<script>
+(function () {
+  if (window.__pixelBloom) return;
+  window.__pixelBloom = true;
+  if (!window.matchMedia || !matchMedia('(pointer: fine)').matches) return;
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)');
+
+  var cv = document.createElement('canvas');
+  cv.setAttribute('aria-hidden', 'true');
+  cv.style.cssText = 'position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:9999';
+  document.body.appendChild(cv);
+  var ctx = cv.getContext('2d'), parts = [], running = false;
+
+  function size() { cv.width = innerWidth; cv.height = innerHeight; }
+  size();
+  addEventListener('resize', size);
+
+  function snap(v) { return Math.round(v / 3) * 3; }
+
+  function tick() {
+    ctx.clearRect(0, 0, cv.width, cv.height);
+    parts = parts.filter(function (p) { return p.life > 0; });
+    parts.forEach(function (p) {
+      p.x += p.dx; p.y += p.dy; p.dx *= 0.9; p.dy *= 0.9; p.life -= p.decay;
+      ctx.globalAlpha = Math.max(p.life, 0);
+      ctx.fillStyle = p.c;
+      ctx.fillRect(snap(p.x), snap(p.y), p.s, p.s);
+    });
+    ctx.globalAlpha = 1;
+    if (parts.length) requestAnimationFrame(tick); else running = false;
+  }
+
+  addEventListener('click', function (e) {
+    if (reduce.matches || e.button !== 0) return;
+    var x = e.clientX, y = e.clientY, i, a, sp;
+    for (i = 0; i < 14; i++) {
+      a = i / 14 * Math.PI * 2; sp = 1.2 + Math.random() * 1.4;
+      parts.push({ x: x, y: y, s: 3, c: i % 2 ? '#e3bdd6' : '#c989be', life: 1, dx: Math.cos(a) * sp, dy: Math.sin(a) * sp, decay: 0.035 });
+    }
+    for (i = 0; i < 4; i++) {
+      a = i / 4 * Math.PI * 2 + 0.4;
+      parts.push({ x: x, y: y, s: 3, c: '#8aa86a', life: 1, dx: Math.cos(a) * 0.8, dy: Math.sin(a) * 0.8, decay: 0.03 });
+    }
+    parts.push({ x: x - 1, y: y - 1, s: 6, c: '#e8c35a', life: 1, dx: 0, dy: 0, decay: 0.04 });
+    if (!running) { running = true; requestAnimationFrame(tick); }
+  });
+})();
+</script>
