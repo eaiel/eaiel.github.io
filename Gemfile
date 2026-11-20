@@ -33,7 +33,6 @@ gem "jekyll-theme-hydejack", "~> 9.1"
 
 
 # A JavaScript runtime for Ruby that helps with running the katex gem above.
-gem "duktape"
 
 # Required for `jekyll serve` in Ruby 3
 gem "webrick"
