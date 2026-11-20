@@ -6,28 +6,40 @@ description: >
 hide_description: true
 ---
 
-<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  .who { --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+         font-family: var(--mono); background: #000; color: #38E038; border-radius: 8px; position: relative; overflow: hidden;
+         padding: 1rem 1.2rem 1.1rem; margin: 1.5rem 0 2rem; font-size: .9rem; line-height: 1.55;
+         box-shadow: inset 0 0 0 1px #1d3a1d, 0 0 24px rgba(56,224,56,.08); }
+  .who::after { content: ""; position: absolute; inset: 0; pointer-events: none;
+                background: repeating-linear-gradient(to bottom, rgba(0,0,0,.22) 0 1px, transparent 1px 3px); }
+  .who p { margin: 0; }
+  .who-p { color: #40E0D0; }
+  .who-w { color: #F2F2F2; }
+  .who-grid { display: grid; grid-template-columns: max-content 1fr; gap: .15rem 1.2rem; margin: .5rem 0 .8rem; }
+  .who-k { color: #7890F0; }
+  .who-y { color: #F5E642; }
+  .who-cur { display: inline-block; width: .55em; height: 1em; vertical-align: -.12em; background: #38E038;
+             animation: who-blink 1.1s steps(1) infinite; }
+  @keyframes who-blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .who-cur { animation: none; } }
+  @media (max-width: 480px) { .who { font-size: .8rem; padding: .9rem; } .who-grid { gap: .1rem .8rem; } }
+</style>
 
-<div style="margin: 1.5rem 0; display: flex; justify-content: center;">
-  <model-viewer 
-  src="/assets/img/retro-computer/retro-computer-fixed.glb" 
-  alt="A 3D model of a retro computer"
-  auto-rotate 
-  camera-controls
-  disable-zoom
-  bounds="tight"
-  camera-orbit="0deg 75deg 60%"
-  environment-image="/assets/img/pinkblue.hdr"
-  exposure="1.2"
-  shadow-intensity="1"
-  style="width: 100%; max-width: 500px; height: 350px; background-color: transparent; margin: 0 auto;">
-  </model-viewer>
+<div class="who" role="region" aria-label="Quick profile">
+<p><span class="who-p">eaielportfolio:~$</span> <span class="who-w">whoami</span></p>
+<div class="who-grid">
+<span class="who-k">NAME</span><span class="who-w">Eaiel "Angel" Camilotes</span>
+<span class="who-k">ROLE</span><span>Business Admin &amp; IT Intern</span>
+<span class="who-k">STUDY</span><span>B.S. Cybersecurity &amp; IT, ECU (2027)</span>
+<span class="who-k">FOCUS</span><span>Mainframe, networking, security</span>
+<span class="who-k">STATUS</span><span class="who-y">Seeking full-time IT roles, May 2027</span>
 </div>
-<p style="font-size: 0.8rem; color: #888; margin-top: 0.3rem; text-align: center;">
-  This work is based on <a href="https://sketchfab.com/3d-models/retro-computer-9439cb5e09cc44caa63dfbfb299df45f">"Retro computer"</a> 
-  by <a href="https://sketchfab.com/dogflesh">dogflesh</a>, licensed under 
-  <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>
-</p>
+<p><span class="who-p">eaielportfolio:~$</span> <span class="who-cur" aria-hidden="true"></span></p>
+</div>
 
 # About
 
@@ -35,7 +47,7 @@ hide_description: true
 
 ## Eaiel Camilotes
 
-I am a student currently pursuing a Bachelors in Science for Cybersecurity and Information Technology. I also work full-time as a Business Administration Intern for a Food & Hospitality company. I have skills with auditing, data collection, formatting and creating documentation for ~12 brands. Personally, I have started building projects and taking certifications to take my first step into the IT and Security workforce. 
+I sit where operations meets IT. By day, I audit, organize, and document processes for ~12 restaurant brands, turning messy workflows into guides teams actually use. Outside of that, I'm building hands-on projects in mainframe computing and networking and stacking certifications on my way into IT and security.
 {:.lead}
 
 1. this list will be replaced by the toc
@@ -46,9 +58,6 @@ I am a student currently pursuing a Bachelors in Science for Cybersecurity and I
 
 ## Portfolio
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
   .rt { --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
         --blk: #000; --grn: #38E038; --turq: #40E0D0; --yel: #F5E642; --wht: #F2F2F2; --blu: #7890F0;
