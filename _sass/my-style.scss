@@ -19,22 +19,22 @@
 
 // Page background: cream in light mode, warm charcoal in dark mode
 html body, html body.light-mode {
-  --body-bg: #fbf9f6;
-  --term-frame: #e9e2d3;
-  --term-frame-edge: #cfc5b1;
+  --body-bg: #f6f0e4;
+  --term-frame: #e6dcc8;
+  --term-frame-edge: #cbbfa6;
   --term-shadow: rgba(15, 26, 18, .18);
 }
 html body.dark-mode {
-  --body-bg: #1b1a1d;
-  --term-frame: #2b2a2e;
-  --term-frame-edge: #3a3540;
+  --body-bg: #232226;
+  --term-frame: #3a393f;
+  --term-frame-edge: #46444c;
   --term-shadow: rgba(0, 0, 0, .4);
 }
 @media screen and (prefers-color-scheme: dark) {
   html body:not(.light-mode) {
-    --body-bg: #1b1a1d;
-    --term-frame: #2b2a2e;
-    --term-frame-edge: #3a3540;
+    --body-bg: #232226;
+    --term-frame: #3a393f;
+    --term-frame-edge: #46444c;
     --term-shadow: rgba(0, 0, 0, .4);
   }
 }

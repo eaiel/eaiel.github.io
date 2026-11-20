@@ -20,8 +20,6 @@ hide_description: true
 <p><span class="t-pink">eaielportfolio:~$</span> <span class="t-cur" aria-hidden="true"></span></p>
 </div>
 
-# about
-
 <!--author-->
 
 ## eaiel_camilotes
