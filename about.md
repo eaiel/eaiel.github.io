@@ -57,6 +57,16 @@ I sit where operations meets IT. By day, I audit, organize, and document process
       <p class="t-go">&gt; OPEN</p>
     </div>
   </a>
+  <a class="t-card" href="{{ '/projects/ai-security-policy/' | relative_url }}">
+    <div class="t-shot"><img src="{{ '/assets/img/projects/ai-policy/policy-page-1.png' | relative_url }}" alt="First page of an AI acceptable use policy" loading="lazy"></div>
+    <div class="t-body">
+      <p class="t-id">PRJ003  //  SECURITY GOVERNANCE</p>
+      <p class="t-title">AI Security Policy</p>
+      <p class="t-desc">Researched and drafted an AI acceptable use policy for a multi-brand restaurant group, presented to the IT director.</p>
+      <p class="t-tags">Risk assessment  Data classification  M365</p>
+      <p class="t-go">&gt; OPEN</p>
+    </div>
+  </a>
 </div>
 <p class="t-pf"><span>F3=<a href="{{ '/projects/' | relative_url }}">All Projects</a></span><span>F4=<a href="{{ '/resume/' | relative_url }}">Resume</a></span><span>F5=<a href="{{ '/certifications/' | relative_url }}">Certs</a></span></p>
 </div>
